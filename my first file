@@ -1,1 +1,41 @@
 import java
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication30
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 275, b = 452, c = 500;
+            Console.WriteLine("Large number is:");
+            if (a > b)
+            {
+                if (a > c)
+                {
+                    Console.WriteLine(a);
+                }
+                else
+                {
+                    Console.WriteLine(b);
+                }
+            }
+            else
+            {
+                if (c > b)
+                {
+                    Console.WriteLine(c);
+                }
+                else
+                {
+                    Console.WriteLine(b);
+                }
+            }
+            Console.ReadKey();
+
+        }
+    }
+}
